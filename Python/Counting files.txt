@@ -1,0 +1,6 @@
+#Rojas Shrestha
+#rojas.shrestha85@myhunter.cuny.edu
+#May 6, 2024
+#This program counts a number of select files
+
+ls -l | grep ".py" | wc -l

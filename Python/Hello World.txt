@@ -1,0 +1,8 @@
+#Rojas Shrestha
+#rojas.shrestha85@myhunter.cuny.edu
+#March 26, 2024
+#This program prints "Hello World" in Unix shell script
+
+#!/bin/bash
+
+echo "Hello, World"

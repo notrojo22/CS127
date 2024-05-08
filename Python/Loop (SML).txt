@@ -1,0 +1,12 @@
+#Rojas Shrestha
+#rojas.shrestha85@myhunter.cuny.edu
+#May 1, 2024
+#This program registers a loop of numbers from 0-50 skipping every 5 numbers
+
+ADDI $s0, $zero, 0 #set s0 to 10
+ADDI $s1, $zero, 5  #use to decrement counter, $s0
+ADDI $s2, $zero, 50
+AGAIN: ADD $s0, $s0, $s1
+BEQ $s0, $s2, DONE
+J AGAIN
+DONE:  #To break out of the loop

@@ -1,0 +1,8 @@
+#Rojas Shrestha
+#rojas.shrestha85@myhunter.cuny.edu
+#April 8, 2024
+#This program mimics the logic gates in the programming assignment
+
+out1 = (in1 and in2)
+out2 = (not(in1 and in2) and (in1 or in2))
+out3 = (not(in2))

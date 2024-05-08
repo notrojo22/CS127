@@ -1,0 +1,11 @@
+#Rojas Shrestha
+#rojas.shrestha85@myhunter.cuny.edu
+#May 1, 2024
+#This program creates a directory called projectFiles then subdirectories of this directory called source, data, and results
+
+mkdir projectFiles
+cd projectFiles
+mkdir source
+mkdir data
+mkdir results 
+
